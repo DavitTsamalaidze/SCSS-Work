@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 20px 40px;
+}
+.header .Logo {
+  color: #ff8800;
+  font-size: 24px;
+  font-weight: bold;
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.header nav ul li a:hover {
+  color: #ff8800;
+}
+.header .search {
+  border-radius: 10px;
+  font-size: 16px;
+  height: 35px;
+}
+.header .search:hover {
+  background-color: rgb(214, 214, 214);
+}
+.header .join-btn {
+  border: none;
+  background-color: #ff8800;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header .join-btn:hover {
+  background-color: #ff5e00;
+}/*# sourceMappingURL=style.css.map */

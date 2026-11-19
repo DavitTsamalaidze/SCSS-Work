@@ -1,0 +1,64 @@
+$primary-color: #222;
+$accent-color: #ff8800;
+$text-color: white;
+$font-size: 16px;
+$padding: 20px;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  @include flex-center();
+  justify-content: space-between;
+  background-color: $primary-color;
+  padding: $padding 40px;
+
+  .Logo {
+    color: $accent-color;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav {
+    ul {
+      @include flex-center();
+      gap: 24px;
+      list-style: none;
+
+      li {
+        a {
+          color: $text-color;
+          text-decoration: none;
+          font-size: $font-size;
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+  }
+
+  .search {
+    border-radius: 10px;
+    font-size: $font-size;
+    height: 35px;
+    &:hover{
+        background-color: rgb(214, 214, 214);
+    }
+  }
+
+  .join-btn {
+    border: none;
+    background-color: $accent-color;
+    color: $text-color;
+    padding: 12px $padding;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: #ff5e00;
+    }
+  }
+}
