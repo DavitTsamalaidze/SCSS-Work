@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inherit;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0%;
+}
+header .logo {
+  color: #8b5e3c;
+  margin-left: 35px;
+}
+header nav {
+  display: flex;
+  gap: 25px;
+}
+header nav a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3;
+}
+header nav a:hover {
+  color: #8b5e3c;
+}
+header .header-btn {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header .header-btn:hover {
+  background-color: #5a3c26;
+}
+header .header-btn {
+  margin-right: 35px;
+}
+
+.hero {
+  background-color: #f5eee8;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.hero .hero-content {
+  text-align: center;
+}
+.hero .hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.hero .hero-content p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+.hero .hero-content .hero-btn {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero .hero-content .hero-btn:hover {
+  background-color: #5a3c26;
+}/*# sourceMappingURL=style.css.map */
